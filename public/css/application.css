@@ -1,0 +1,163 @@
+header{
+  background-color: transparent;
+  height: 10%;
+}
+.da_game{
+  position: fixed;
+  background-color: #81BEF7;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.player_info{
+  background-color:white;
+  position: relative;
+  border-radius: 12px;
+  /*bottom: 5%;*/
+  top: 10%;
+  left: 2%;
+  /*background-color:red;*/
+  height: 50%;
+  width: 20%;
+  margin: auto;
+  padding: 4%;
+  /*text-align: horizontal;*/
+  /*overflow: hidden;*/
+  float: left;
+}
+
+.game{
+  position: fixed;
+  float: right;
+  right: 5%;
+  top: 8%;
+background-color:#BFFF00;
+border-radius: 12px;
+height: 90%;
+width: 60%;
+}
+
+#word_board{
+  background-color:transparent;
+  position: relative;
+  /*bottom: 5%;*/
+  top: 10%;
+  left: 5%;
+  /*background-color:red;*/
+  height: 90%;
+  width: 70%;
+  margin: auto;
+  text-align: horizontal;
+  /*overflow: hidden;*/
+  float: left;
+}
+/*an emtpy slot*/
+.letter{
+position: relative;
+top: 0%;
+background-color: transparent;
+/*background-color: transparent;*/
+border-radius: 12px;
+float: left;
+height: 11%;
+width: 11%;
+margin: 2px;
+color: white;
+/*font-size: 30pt;*/
+font-size: 2em;
+text-align: center;
+font-family: Lucidatypewriter, monospace;
+/*vertical-align: middle;*/
+/*display: table-cell;*/
+/*line-height: 50px;*/
+line-height: 1.2em;
+/*vertical-align: center;*/
+}
+
+/*an active slot*/
+.active {
+position: relative;
+top: 0%;
+/*background-color: #61210B;*/
+background-color: #F7FE2E;
+/*background-color: transparent;*/
+border-radius: 12px;
+float: left;
+height: 11%;
+width: 11%;
+margin: 2px;
+color: #0B2161;
+/*font-size: 30pt;*/
+font-size: 2em;
+text-align: center;
+font-family: Lucidatypewriter, monospace;
+/*vertical-align: middle;*/
+/*display: table-cell;*/
+/*line-height: 50px;*/
+line-height: 1.2em;
+/*vertical-align: center;*/
+box-shadow: 10px 10px 5px #888888;
+}
+
+.explode{
+  position: relative;
+top: 0%;
+background-color: red;
+/*background-color: transparent;*/
+border-radius: 12px;
+float: left;
+height: 11%;
+width: 11%;
+margin: 2px;
+color: white;
+/*font-size: 30pt;*/
+font-size: 3em;
+text-align: center;
+font-family: Lucidatypewriter, monospace;
+/*vertical-align: middle;*/
+/*display: table-cell;*/
+/*line-height: 50px;*/
+line-height: 1.4em;
+/*vertical-align: center;*/
+}
+
+
+/*a selected slot*/
+.selected{
+  position: relative;
+top: 0%;
+background-color: red;
+/*background-color: transparent;*/
+border-radius: 12px;
+float: left;
+height: 11%;
+width: 11%;
+margin: 2px;
+color: white;
+/*font-size: 30pt;*/
+font-size: 2em;
+text-align: center;
+font-family: Lucidatypewriter, monospace;
+/*vertical-align: middle;*/
+/*display: table-cell;*/
+/*line-height: 50px;*/
+line-height: 1.2em;
+/*vertical-align: center;*/
+box-shadow: 10px 10px 5px #888888;
+}
+
+#score{
+position: relative;
+margin-right: 5%;
+background-color:#BFFF00;
+color: red;
+font-size: 10vw;
+text-align: center;
+border-radius: 22px;
+height: 20%;
+width: 13%;
+line-height: 1.25em;
+top:0%;
+float: right;
+}
